@@ -1,6 +1,6 @@
 # EcoShop MVC
 
-A minimal EcoShop demo refactored to **MVC** using **Node.js + Express + Mongoose + EJS**.
+A minimal EcoShop **MVC** using **Node.js + Express + Mongoose + EJS**.
 
 - **Model**: `/models/productModel.js` (Mongoose schema & data rules)
 - **View**: `/views/products.ejs` (server-rendered UI)
