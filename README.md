@@ -27,7 +27,7 @@ Create a `.env` file in the project root (or edit the defaults in `server.js`):
 
 ```env
 PORT=3000
-MONGODB_URI=mongodb://127.0.0.1:27017/ecoshop
+MONGODB_URI=mongodb+srv://meetparmar2322:5904@Meet@cluster0.cdwjsag.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
 ```
 
 ## JSON API
