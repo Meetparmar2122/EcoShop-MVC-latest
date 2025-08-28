@@ -17,6 +17,7 @@
     .muted { color: #777; font-size: 12px; }
     .row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
     @media (max-width: 640px) { .row { grid-template-columns: 1fr; } }
+    .socket-box { margin-top: 30px; padding: 16px; border: 1px solid #ccc; border-radius: 10px; background: #f9f9f9; }
   </style>
 </head>
 <body>
@@ -58,5 +59,23 @@
   </div>
 
   <p class="muted">JSON API: <a href="/products/api">/products/api</a></p>
+
+  <!-- Socket.IO Demo Section -->
+  <div class="socket-box">
+    <h2>Live Socket.IO Demo</h2>
+    <p>Random number from server: <strong id="number">--</strong></p>
+  </div>
+
+  <!-- Load Socket.IO -->
+  <script src="/socket.io/socket.io.js"></script>
+  <script>
+    const socket = io(); // auto-connects to server
+
+    // Listen for random numbers from server
+    socket.on('number', (msg) => {
+      console.log('Random number from server:', msg);
+      document.getElementById('number').innerText = msg;
+    });
+  </script>
 </body>
 </html>
