@@ -1,3 +1,5 @@
+Latest Note: Added Socket.IO support to server.js and updated products.ejs
+
 # EcoShop MVC
 
 A minimal EcoShop **MVC** using **Node.js + Express + Mongoose + EJS**.
