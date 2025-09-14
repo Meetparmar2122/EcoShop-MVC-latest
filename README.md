@@ -42,3 +42,6 @@ MONGODB_URI=mongodb+srv://meetparmar2322:5904@Meet@cluster0.cdwjsag.mongodb.net/
 
 - This is intentionally simple for learning MVC. You can add validation, auth, services, repos, etc.
 - For production, configure CORS, security headers, logging, and error handling layers.
+
+- Update: Test commit for Jenkins pipeline (Sep 14)
+
